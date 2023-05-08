@@ -17,7 +17,7 @@ counter = 0
 test = 0
 time = 10
 
-bg_img = pygame.image.load(r'image0000.png')
+bg_img = pygame.image.load(r'background.png')
 bg_img = pygame.transform.scale(bg_img,(WIDTH,HEIGHT))
 
 Start_x=172
@@ -107,8 +107,8 @@ def ball():
     screen.blit(BallImg,(Ball_Xcoord,Ball_Ycoord))
     
 def bar():
-    Bar1Img=pygame.image.load(r"secondd.png")
-    Bar2Img=pygame.image.load(r"seconddd.png")
+    Bar1Img=pygame.image.load(r"paddle1.png")
+    Bar2Img=pygame.image.load(r"paddle2.png")
     global Bar1_Xcoord, Bar1_Ycoord, Bar1_velocity, Bar2_velocity,Bar2_Xcoord, Bar2_Ycoord
     Bar1_Xcoord += Bar1_velocity
     Bar2_Xcoord += Bar2_velocity
