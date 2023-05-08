@@ -1,1 +1,1 @@
-# pong
+# CS High School Project
